@@ -1,0 +1,29 @@
+.modal-container{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+}
+.modal-dialog{
+    width: 100%;
+    height: fit-content;
+    color: white;
+    background-color: black;
+}
+.modal-dialog img{
+    object-fit: cover;
+    width: 10%;
+}
+
+@media screen and (max-width: 992px){
+    .modal-dialog img{
+        object-fit: cover;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 524px){
+    .modal-dialog img{
+        object-fit: cover;
+        width: 60%;
+    }
+}
